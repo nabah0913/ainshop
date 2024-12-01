@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Computer Accessories Shop</title>
+    <link rel="stylesheet" href="ain.css"> <!-- External CSS link -->
+    <style>
+        /* Basic inline styles for simplicity */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            float: left;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .product {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .product h3 {
+            text-align: center;
+            color: #333;
+        }
+        .product p {
+            color: #666;
+            font-size: 14px;
+        }
+        .product .price {
+            color: green;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>My Computer Accessories Shop</h1>
+        <p>Your one-stop shop for all computer accessories!</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Contact Us</a>
+        <a href="#">About Us</a>
+    </nav>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <h2>Featured Products</h2>
+        
+        <!-- Product Cards -->
+        <div class="product">
+            <img src="mouse.jpg" alt="Wireless Mouse">
+            <h3>Wireless Mouse</h3>
+            <p>A sleek wireless mouse with ergonomic design.</p>
+            <span class="price">$15.99</span>
+        </div>
+        
+        <div class="product">
+            <img src="keyboard.jpg" alt="Mechanical Keyboard">
+            <h3>Mechanical Keyboard</h3>
+            <p>A premium mechanical keyboard for gamers.</p>
+            <span class="price">$99.99</span>
+        </div>
+        
+        <div class="product">
+            <img src="headphones.jpg" alt="Noise Cancelling Headphones">
+            <h3>Noise Cancelling Headphones</h3>
+            <p>Experience superior sound quality with noise-cancelling technology.</p>
+            <span class="price">$149.99</span>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 My Computer Accessories Shop</p>
+    </footer>
+
+</body>
+</html>
